@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <title>register</title>
+    <link rel="Stylesheet" href="css/register.css" />
+    <style>
+
+    </style>
+</head>
+<body>
+<h1>用户注册</h1>
+<table>
+    <tr>
+        <td style="width: 70px">用户名：</td>
+        <td>
+            <input name="uname"/>
+            <span>*</span>
+        </td>
+        <td>
+            <div class="vali_info">
+                10个字符以内的字母、数字或下划线的组合
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>密码：</td>
+        <td>
+            <input type="password" name="upwd"/>
+            <span>*</span>
+        </td>
+        <td>
+            <div class="vali_info">6~12位字母、数字或下划线的组合</div>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2">
+            <input type="button" value="注册" name="register"/>
+            <input type="reset" value="重填"/>
+        </td>
+    </tr>
+</table>
+<div><a href="http://localhost:2000/products.html">返回</a></div>
+<script src="js/register.js"></script>
+<script src="js/ajax.js"></script>
+</body>
+</html>

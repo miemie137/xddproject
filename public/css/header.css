@@ -1,0 +1,36 @@
+
+.my_login{
+    color:#0AA1ED;
+}
+
+/*inputÊäÈë¿ò¿í¶È*/
+.my_input_w{
+    width: 1rem;
+}
+
+header>ul.nav .nav-link.active,header>ul.nav .nav-link:hover{
+background: none;
+    color: #333 !important;
+}
+nav ul li a{
+    font-size:0.6rem;
+}
+.ml-6{
+    margin-left: 35rem;
+}
+.width>ul li{
+   width: 38px;
+}
+@media screen and (min-width: 576px) and (max-width: 991px){
+    .hidden-sm{
+        display: none;
+    }
+    .my_input_w{
+        width: 25rem !important;
+    }
+}
+@media screen and (max-width: 576px){
+    .about-hidden-sm{
+        margin-left: 0 !important;
+    }
+}

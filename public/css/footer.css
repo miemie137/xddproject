@@ -1,0 +1,16 @@
+
+#footer{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #D3EDFA;
+}
+#footer>div:nth-child(1)>div:nth-child(1)>p>img{
+    width:18rem
+}
+@media screen and (min-width: 992px){
+#footer>div{
+    width: 992px;
+    margin: 0 auto;
+ }
+}

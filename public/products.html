@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/products.css"/>
+    <title>products</title>
+</head>
+<body>
+<!--1.头部-->
+<header id="header">
+</header>
+<!--2.主体-->
+<div class="container">
+    <div id="demo" class="carousel" data-ride="carousel">
+        <!--导航指示符-->
+        <ul class="carousel-indicators"><!--为轮播添加指示符-->
+            <li class="active" data-target="#demo" data-slide-to="0"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        <!--轮播图片-->
+        <div class="carousel-inner"><!--添加要切换的图片-->
+            <div class="carousel-item active">
+                <img src="img/product/8882.jpg"/>
+            </div>
+            <div class="carousel-item">
+                <img src="img/product/999.bmp"/>
+            </div>
+            <div class="carousel-item">
+                <img src="img/product/000.jpg"/>
+            </div>
+            <div class="carousel-item">
+                <img src="img/product/8881.jpg"/>
+            </div>
+            <!--左右箭头-->
+            <a href="#demo" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#demo" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!--左 产品列表 右 时光机啊-->
+    <div class="row mb-5 mt-4 ">
+        <!--左列：产品列表-->
+        <div class="col-md-9 col-sm-12">
+            <!--列表标题-->
+            <h6 class="my_gradient pt-2 pb-2 text-muted mb-0">小叮当的百宝袋</h6>
+            <!--列表具体内容-->
+            <div id="plist" class="row ml-0 mr-1 pt-2">
+               <!-- <div class="col-md-4 col-sm-6 p-1">
+                    <div class="card pr-2 pl-2">
+                        <a href="#"><img src="img/0.jpg" class="card-img-top img_height"/></a>
+                        <div>
+                            <h5 class="text-primary">￥9999.00</h5>
+                            <a href="#" class="text-muted my_small">时光机<p>爬进抽屉里，带你去冒险</p></a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">-</button>
+                                <input type="text" value="1" class="form-control my_input_w p-1 text-center"/>
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">+</button>
+                                <a href="#" class="btn btn-primary">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-1">
+                    <div class="card pr-2 pl-2">
+                        <a href="#"><img src="img/1.jpg" class="card-img-top img_height"/></a>
+                        <div>
+                            <h5 class="text-primary">￥6986.00</h5>
+                            <a href="#" class="text-muted my_small">竹蜻蜓<p>以梦为马，以云为被</p></a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">-</button>
+                                <input type="text" value="1" class="form-control my_input_w p-1 text-center"/>
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">+</button>
+                                <a href="#" class="btn btn-primary">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-1">
+                    <div class="card pr-2 pl-2">
+                        <a href="#"><img src="img/2.jpg" class="card-img-top img_height"/></a>
+                        <div>
+                            <h5 class="text-primary">￥9863.00</h5>
+                            <a href="#" class="text-muted my_small">记忆面包<p>妈妈再也不用担心我的学习啦</p></a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">-</button>
+                                <input type="text" value="1" class="form-control my_input_w p-1 text-center"/>
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">+</button>
+                                <a href="#" class="btn btn-primary">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-1">
+                    <div class="card pr-2 pl-2">
+                        <a href="#"><img src="img/3.jpg" class="card-img-top img_height"/></a>
+                        <div>
+                            <h5 class="text-primary">￥8922.00</h5>
+                            <a href="#" class="text-muted my_small">餐桌斗篷<p>想吃什么有什么</p></a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">-</button>
+                                <input type="text" value="1" class="form-control my_input_w p-1 text-center"/>
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">+</button>
+                                <a href="#" class="btn btn-primary">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-1">
+                    <div class="card pr-2 pl-2">
+                        <a href="#"><img src="img/4.jpg" class="card-img-top img_height"/></a>
+                        <div>
+                            <h5 class="text-primary">￥6988.00</h5>
+                            <a href="#" class="text-muted my_small">空气炮<p>Boom~Boom~Boom~敌人全消失</p></a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">-</button>
+                                <input type="text" value="1" class="form-control my_input_w p-1 text-center"/>
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">+</button>
+                                <a href="#" class="btn btn-primary">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-1">
+                    <div class="card pr-2 pl-2">
+                        <a href="#"><img src="img/5.jpg" class="card-img-top img_height"/></a>
+                        <div>
+                            <h5 class="text-primary">￥6882.00</h5>
+                            <a href="#" class="text-muted my_small">任意门<p>想去哪里去哪里</p></a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">-</button>
+                                <input type="text" value="1" class="form-control my_input_w p-1 text-center"/>
+                                <button class="btn text-white border-0 my_btn_gray p-0"type="button">+</button>
+                                <a href="#" class="btn btn-primary">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+            </div>
+            <!--分页-->
+            <div class="my_gradient mt-3">
+                <ul class="pagination justify-content-end mb-0">
+                  <!--  <li class="page-item disabled"><a href="#" class="page-link">上一页</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link bg-transparent">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link bg-transparent">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link bg-transparent">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link bg-transparent">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link bg-transparent">下一页</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <!--右列：时光机啊-->
+        <div class="col-md-3 col-sm-12">
+            <!--公告的标题-->
+            <h6 class="my_gradient p-2 text-muted mb-0">
+                <img src="img/foodstore/foodstore_icon2.png" class="mr-2"/>咦，系时光机啊
+            </h6>
+            <!--公告具体内容-->
+            <div class="p-3 text-muted my_small">
+                <p>哆啦A梦走后,</p>
+                <p>大雄依旧每天上学。</p>
+                <p>却再未迟到过。</p>
+                <p>大雄依旧每天挨打。</p>
+                <p>却再未认输过。</p>
+                <p>抽屉依旧还是那个抽屉。</p>
+                <p>却再没有时空隧道。</p>
+                <p>而哆啦A梦，也再不会回来。</p>
+                <p>如果可以，大雄只想继续做那个不幸的大雄。</p>
+                <p>因为不幸的大雄，有哆啦A梦。</p>
+                <p>戴竹蜻蜓穿过那森林</p>
+                <p>打开了任意门找到你一起旅行</p>
+                <p>那童年的希望是一台时光机</p>
+                <p>或许每个在哆啦A梦的故事中成长起来的孩子，</p>
+                <p>都期待着自己也能有一个属于自己的机器猫。</p>
+            </div>
+            <!--购物车-->
+            <ul class="list-group" style="margin-top:1rem">
+                <!--购物车标题-->
+                <li class="list-group-item d-flex p-1 justify-content-between my_gradient">
+                    <p class="mb-0 text-muted">购物车</p>
+                </li>
+                <li class="list-group-item d-flex justify-content-between p-0">
+                    <span class="text-truncate border-0 d-inline-block my_small pl-1">竹蜻蜓</span>
+                    <span class="p-0 border-0 my_small my_price">￥6986.00</span>
+                    <button class="btn border-0 my_btn_color text-dark text-center p-0">-</button>
+                    <input type="text" value="1" class="border-0 text-center my_shop_input"/>
+                    <button class="btn border-0 my_btn_color text-dark text-center p-0">+</button>
+                    <span class="p-0 border-0 my_small">￥6986.00</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between p-0">
+                    <span class="text-truncate border-0 d-inline-block my_small pl-1">时光机</span>
+                    <span class="p-0 border-0 my_small my_price">￥9999.00</span>
+                    <button class="btn border-0 my_btn_color text-dark text-center p-0">-</button>
+                    <input type="text" value="1" class="border-0 text-center my_shop_input"/>
+                    <button class="btn border-0 my_btn_color text-dark text-center p-0">+</button>
+                    <span class="p-0 border-0 my_small">￥9999.00</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between my_gradient p-0">
+                    <h5 class="text-muted pt-2">
+                        <img src="img/header/shop_car.png" class="pr-2"/>￥:16985.00
+                    </h5>
+                    <a href="#" class="text-white bg-primary p-2">去结算</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--3.底部-->
+<footer id="footer">
+</footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+</html>

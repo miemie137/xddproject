@@ -1,0 +1,39 @@
+<!--<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>-->
+  <header id="header" class="container">
+      <!--1.顶部：左中右-->
+<div class="row mt-0">
+    <div class="col-lg-3 col-md-12">
+        <div class="navbar-brand"><img src="img/product/logo_01.png" style="width: 16rem" class="mb-3"/></div>
+    </div>
+    <div class="col-lg-6 col-md-12 mt-2">
+        <div class="input-group mt-5 my_input_w">
+            <input @keyup.13="search_click()" type="text" class="form-control p-0 my_small pl-3" placeholder="请输入你要搜索的内容">
+            <img @click="search_click()" class="btn p-0" src="img/header/search.png"/>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-12 mt-5 width">
+        <ul class="list-unstyled d-flex mt-2">
+            <li><a href="#"><img src="img/header/care.png"/></a></li>
+            <li><a href="#"><img src="img/header/order.png"/></a></li>
+            <li><a href="#"><img src="img/header/shop_car.png"/></a></li>
+            <li><a href="register.html" class="my_login" target="_blank">注册</a></li>
+            <li><a href="login.html" class="my_login" target="_blank">登录</a></li>
+        </ul>
+    </div>
+</div>
+  </header>
+<!--</body>
+</html>-->
